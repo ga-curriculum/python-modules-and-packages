@@ -15,7 +15,7 @@ In this module you will practice using Python's import syntax for implementing b
 | [Concepts](./concepts/README.md)               |       5 min        | Understand Python’s module system, its organization principles, and compare it with other programming languages.         |
 | [Python Modules](./python-modules/README.md)   |       10 min       | Organize code using modules, and demonstrate how to import and use them effectively in Python.                           |
 | [Python Packages](./python-packages/README.md) |       15 min       | Explain Python packages, including folder structure, the role of `__init__.py`, and how to import modules from packages. |
-| **Total content**                              |     30 min --      |                                                                                                                          |
+| **Total content**                              |       30 min       |                                                                                                                          |
 
 ## References
 
