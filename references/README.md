@@ -1,10 +1,8 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Python Modules and Packages</span>
   <span class="subhead">References</span>
 </h1>
 
 ## Lesson references
 
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
+- [Implicit Namespace Packages](https://peps.python.org/pep-0420/)

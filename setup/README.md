@@ -1,29 +1,25 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Python Modules and Packages</span>
   <span class="subhead">Setup</span>
 </h1>
 
 ## Setup
 
-tktk The below is a generic starting point for lecture setup. You may need to make adjustments to this.
-
-Open your Terminal application and navigate to your <code class="filepath">~/code/ga/lectures</code> directory:
+Open your Terminal application and navigate to your **`~/development/lessons`** directory:
 
 ```bash
-cd ~/code/ga/lectures
+cd ~/development/lessons
 ```
 
-Make a new directory called <code class="filepath">tktk-module-name</code>, then enter this directory:
+Make a new directory called **`python-modules-and-packages`**, then enter this directory:
 
 ```bash
-mkdir tktk-module-name
-cd tktk-module-name
+mkdir python-modules-and-packages
+cd python-modules-and-packages
 ```
 
-Open the contents of the directory in VS Code:
+Open the contents of the directory in VSCode:
 
 ```bash
 code .
 ```
-
-tktk Are there more lecture setup steps? Don't forget to add them here.
