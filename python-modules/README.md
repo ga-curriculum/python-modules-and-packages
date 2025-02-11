@@ -44,14 +44,14 @@ And add the following:
 ```py
 # main.py
 
-import converter # converter module loaded into memory
+import converter  # converter module loaded into memory
 
-unit = input('What do you want to convert? lbs / stone / fl oz / pint ')
-amount = float(input('How many %s to convert? ' % unit))
+unit = input("What do you want to convert? lbs / stone / fl oz / pint ")
+amount = float(input(f"How many {unit} to convert? "))
 result = converter.convert(amount, unit)
-metric = 'kg' if unit in ['lbs', 'stone'] else 'ml'
+metric = "kg" if unit in ["lbs", "stone"] else "ml"
 
-print('%s %s is %s %s' % (amount, unit, result, metric))
+print(f"{amount} {unit} is {result} {metric}")
 ```
 
 Let's test and make sure the program works.
@@ -69,8 +69,8 @@ Instead we can just import the `convert` method like so:
 
 from converter import convert  # <--- Change this line
 
-unit = input('What do you want to convert? lbs / stone / fl oz / pint ')
-amount = float(input('How many %ss to convert? ' % unit))
+unit = input("What do you want to convert? lbs / stone / fl oz / pint ")
+amount = float(input(f"How many {unit}s to convert? "))
 result = convert(amount, unit)  # <--- And this line
 print(result)
 ```
