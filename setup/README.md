@@ -5,10 +5,10 @@
 
 ## Setup
 
-Open your Terminal application and navigate to your **`~/development/lessons`** directory:
+Open your Terminal application and navigate to your **`~/lessons`** directory:
 
 ```bash
-cd ~/development/lessons
+cd ~/lessons
 ```
 
 Make a new directory called **`python-modules-and-packages`**, then enter this directory:
